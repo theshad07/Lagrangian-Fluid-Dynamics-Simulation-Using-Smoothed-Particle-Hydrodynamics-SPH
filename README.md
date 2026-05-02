@@ -4,6 +4,8 @@ This project implements a 2D fluid simulation from scratch using Smoothed Partic
 
 To overcome the traditional O(N^2) computational bottleneck of SPH, the simulator utilizes a Linked-Cell spatial hashing algorithm, reducing neighbor search complexity to O(N). Furthermore, the solver ensures mathematical stability using a Predictor-Corrector second-order integration scheme.
 
+https://github.com/user-attachments/assets/d087caa0-2d88-4a33-8783-76da62f29807
+
 # Execution Instructions
 
 # 1. Sequential & OpenMP (Shared Memory)
